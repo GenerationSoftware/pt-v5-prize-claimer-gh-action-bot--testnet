@@ -73,11 +73,11 @@ By default, GitHub does not enable automated workflows for newly forked reposito
 
 > <kbd><img src="https://github.com/GenerationSoftware/pt-v5-liquidator-gh-action-bot/blob/main/images/screenshot-actions-0-nothing.jpg?raw=true" /></kbd>
 
-Click 'I understand my workflows, go ahead and enable them'
+Click 'I understand my workflows, go ahead and enable them'.
 
 > <kbd><img src="https://github.com/GenerationSoftware/pt-v5-liquidator-gh-action-bot/blob/main/images/screenshot-actions-2-disabled.jpg?raw=true" /></kbd>
 
-**Important!** Click the little 'Enable workflow' button in the top-right corner
+**Important!** Click the little 'Enable workflow' button in the top-right corner.
 
 > <kbd><img src="https://github.com/GenerationSoftware/pt-v5-liquidator-gh-action-bot/blob/main/images/screenshot-actions-3-enabled.jpg?raw=true" /></kbd>
 
