@@ -14,7 +14,7 @@ env:
 permissions: write-all
 jobs:
   runCLI:
-    name: Draw Auction Bot
+    name: Prize Claimer Bot
     runs-on: ${{ matrix.os }}
     strategy:
       max-parallel: 1
@@ -63,5 +63,5 @@ jobs:
             await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: `Draw Auction bot failed for run at "$date"__"$time": Exit Code 1`
+              title: `Prize Claimer bot failed for run at "$date"__"$time": Exit Code 1`
             })
