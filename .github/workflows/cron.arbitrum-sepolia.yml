@@ -1,17 +1,17 @@
-name: CronJob - Prize Claimer Bot - Optimism Sepolia
+name: CronJob - Prize Claimer Bot - Arbitrum Sepolia
 on:
   schedule:
     - cron: "*/20 * * * *" # ie. 4:05pm, 4:25pm, 4:45pm ... etc.
   push:
 env:
-  CHAIN_ID: 11155420
+  CHAIN_ID: 421614
   MIN_PROFIT_THRESHOLD_USD: 0.05
   REWARD_RECIPIENT: ''
-  JSON_RPC_URL: ${{ secrets.OPTIMISM_SEPOLIA_JSON_RPC_URL }}
+  JSON_RPC_URL: ${{ secrets.ARBITRUM_SEPOLIA_JSON_RPC_URL }}
   COVALENT_API_KEY: ${{ secrets.COVALENT_API_KEY }}
   CUSTOM_RELAYER_PRIVATE_KEY: ${{ secrets.CUSTOM_RELAYER_PRIVATE_KEY }}
-  CONTRACT_JSON_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-testnet/993c1f75b8b19826195f44c197be6928a213863d/deployments/optimismSepolia/contracts.json'
-  SUBGRAPH_URL: 'https://api.studio.thegraph.com/query/63100/pt-v5-op-sepolia/version/latest'
+  CONTRACT_JSON_URL: 'https://raw.githubusercontent.com/GenerationSoftware/pt-v5-testnet/603b108303c4f639de5dd96005d0629c4dce1357/deployments/arbitrumSepolia/contracts.json'
+  SUBGRAPH_URL: 'https://api.studio.thegraph.com/query/63100/pt-v5-arbitrum-sepolia/version/latest'
   NODE_OPTIONS: "--max_old_space_size=32768"
 permissions: write-all
 jobs:
